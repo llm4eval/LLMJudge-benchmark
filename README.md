@@ -1,6 +1,6 @@
-# SelfRAG Website
+# LLMJudge-Benchmark Website
 
-This is the repository that contains source code for the [SelfRAG website](https://selfrag.github.io). This website is based on [Nerfies website](https://github.com/nerfies/nerfies.github.io)
+This is the repository that contains source code for the [LLMJudge-Benchmark](https://selfrag.github.io). This website is based on [Nerfies website](https://github.com/nerfies/nerfies.github.io)
 
 If you find Self-RAG useful for your work please cite:
 ```
