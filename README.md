@@ -2,12 +2,12 @@
 
 This is the repository that contains source code for the [LLMJudge-Benchmark](https://selfrag.github.io). This website is based on [Nerfies website](https://github.com/nerfies/nerfies.github.io)
 
-If you find Self-RAG useful for your work please cite:
+If you find LLMJudge-benchmark useful for your work please cite:
 ```
-@article{asai2023selfrag,
-  author    = {Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avirup and Hajishirzi, Hannaneh},
-  title     = {{Self-RAG}:  Learning to Retrieve, Generate, and Critique through Self-Reflection},
-  year      = {2023},
+@article{-,
+  author    = {-},
+  title     = {-},
+  year      = {2024},
 }
 ```
 
