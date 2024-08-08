@@ -1,6 +1,6 @@
 # LLMJudge-Benchmark
 
-This is the repository that contains source code for the [LLMJudge-Benchmark](https://selfrag.github.io). This website is based on [Nerfies website](https://github.com/nerfies/nerfies.github.io)
+This is the repository that contains source code for the [LLMJudge-Benchmark](#). This website is based on [Nerfies website](https://github.com/nerfies/nerfies.github.io)
 
 If you find LLMJudge-benchmark useful for your work please cite:
 ```
