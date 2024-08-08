@@ -167,7 +167,7 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Self-RAG: Learning to Retrieve, Generate and Critique</h2>
+        <h2 class="title is-3">LLMJudge Benchamrk</h2>
         <!-- Interpolating. -->
         <!-- <h3 class="title is-4">Overall Model Performance</h3> -->
         <div class="content has-text-justified">
@@ -234,21 +234,12 @@
               <br/>
               <div class="content has-text-justified">
                 <h3 class="title is-4">Main Results</h3>
-                <p>
-                <span style="color: red"><b>Self-RAG</b></span> outperforms vanilla ChatGPT or LLama2-chat across six tasks, and outperforms those SOTA models with widely-used retrieval-augmentation methods in most tasks by large margin. 
-                </p>
-                <img src="static/images/results.png" alt="results">
+                <img src="#" alt="results">
               </div>
               <div class="content has-text-justified">
                 <h3 class="title is-4">Analysis</h3>
-                <img src="static/images/analysis_result_1.png" alt="analysis results">
+                <img src="#" alt="analysis results">
                 <h4 class="title is-8">(A) Ablations</h4>
-                <p>Our ablation results show that all training and inference components play important roles to improve performance off Self-RAG.</p>
-
-                <h4 class="title is-8">(B) Inference-time customization via critique tokens</h4> 
-                <p>Self-RAG enables practitioners to tailor model's behaviors for different fine-grained preferences. For instance, putting more emphasis on whether a model generation is supported by the evidence can increase citation precision (precision in Figure (b)) on long-form generation, while putting less emphasis on it can increase the output fluency as a model may generate output more flexibly and fluently, regardless of whether it is supported by the cite evidence.</p>
-                <h4 class="title is-8">(C) Adaptive retrieval via retrieval tokens</h4>
-                <p>Self-RAGgenerates retrieval tokens by itself when it judges retrieval is necessary, while one can also increase or decrease retrieval frequency based on diverse end tasks. As you can see, retrieval less can hurt performance on Open domain QA (PopQA; 40% relative performance drop) while it gives marginal performance deterioration in fact verification task (PubHealth; 2%).</p>
               </div>
             </section>
       
