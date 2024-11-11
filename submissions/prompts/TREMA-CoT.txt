@@ -1,0 +1,37 @@
+Sun’s Prompt
+Instruction: Given a passage and a query, predict whether the passage includes an answer to the query
+by producing either ”Yes” or ”No”. Question: {query} Passage: {passage}
+Answer:
+
+System Message for Criteria Grading
+Please assess how well the provided passage meets specific criteria in relation to the query. Use the
+following scoring scale (0-3) for evaluation:
+3: Highly relevant / Fully satisfies the criterion.
+2: Fairly relevant / Adequately addresses the criterion.
+1: Marginally relevant / Partially addresses the criterion.
+0: Not relevant at all / No information provided.
+
+Criteria Grading Prompt
+Please rate how well the given passage meets the {criteria} criterion in relation to the query. The
+output should be a single score (0-3) indicating {criterion definition}.
+
+System Message for Relevance:
+You are a search quality rater evaluating the relevance of passages. Given a query and passage, you
+must provide a score on an integer scale of 2 or 3 with the following meanings:
+2 = Highly relevant: The passage has some answer for the query, but the answer may be a bit unclear,
+or hidden amongst extraneous information.
+3 = Perfectly relevant: The passage is dedicated to the query and contains the exact answer.
+
+Relevance Prompt
+The given passage is relevant to the query, please rate how relevant it is to the query. The output
+must be only a score (2 or 3) that indicates how relevant they are.
+
+System Message for Irrelevance:
+You are a search quality rater evaluating the relevance of passages. Given a query and passage, you
+must provide a score on an integer scale of 0 or 1 with the following meanings:
+0 = Irrelevant: The passage has nothing to do with the query.
+1 = Related: The passage seems related to the query but does not answer it.
+
+Irrelevance Prompt
+The given passage is irrelevant to the query, please rate how irrelevant it is to the query. The output
+must be only a score (0 or 1) that indicates how irrelevant they are.

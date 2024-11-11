@@ -1,0 +1,24 @@
+System Message for Query Generation
+You are a query generator. For example having this document:’Categories: Dogs. Article Summary
+X. If your puppy is starting to get teeth, it’s probably between 3 and 4 weeks old. At 8 weeks of age,
+your puppy will have 28 baby teeth. For an adult dog, expect 1 or 2-year-olds to have white teeth,
+while 3-year-olds may have signs of tooth decay, such as yellow and brown tartar.’
+You should generate a query such as: ’dog age by teeth’.
+
+Query Generation Prompt
+Please identify the search query that best corresponds to the following passage. Keep your response
+concise. Passage: {passage}.
+
+System Message for Similarity Grading
+You are a similarity evaluator agent. Please rate the similarity between the two items on a scale from
+0 to 3.
+
+Prompt for Grading Query Similarity
+Please rate the similarity between the following queries:
+{Generated Query}
+and
+{Original Query}
+3: Highest similarity
+2: Fairly similar
+1: Minor similarity
+0: Not similar

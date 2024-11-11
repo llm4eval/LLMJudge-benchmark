@@ -1,0 +1,4 @@
+Instruction: Please assess the relevance of the provided passage to the following question. Please output "Perfectly relevant", "Highly relevant", "Related" or "Irrelevant".
+Question: {}
+Passage: {}
+Output:

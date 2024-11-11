@@ -1,0 +1,17 @@
+Given a query and a passage, you must provide a rating with the following meanings:
+Irrelevant = represent that the passage has nothing to do with the query, 
+Related = represents that the passage seems related to the query but does not answer it, 
+Highly relevant = represents that the passage has some answer for the query, but the answer may be a bit unclear, or hidden amongst extraneous information and 
+Perfectly relevant = represents that the passage is dedicated to the query and contains the exact answer.
+
+Important Instruction: Assign "Related" if the passage is somewhat related to the topic but not completely, "Highly relevant" if passage presents something very important related to the entire topic but also has some extra information and "Perfectly relevant" if the passage only and entirely refers to the topic. If none of the above satisfies give it "Irrelevant".
+
+Query: {query}
+Passage: {passage}
+
+Split this problem into steps:
+Consider the underlying intent of the search.
+Measure how well the content matches a likely intent of the query (M).
+Measure how trustworthy the passage is (T).
+Consider the aspects above and the relative importance of each, and decide on a final rating (O). Final score must be only one of Irrelevant, Related, Highly Relevant, or Perfectly Relevant.
+Do not provide any code in result. Provide each rating in the format of: ##final rating: rating without providing any reasoning.
