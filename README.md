@@ -14,6 +14,7 @@ This paper benchmarks and reports on the results of a large-scale automatic rele
 ## Details
 This is the repository that contains source codes, prompts, and LLM-generated relevance judgments for the [LLMJudge Challenge](https://github.com/llm4eval/LLMJudge). This website is based on [Nerfies website](https://github.com/nerfies/nerfies.github.io)
 
+## Cite
 If you find LLMJudge-benchmark useful for your work please cite:
 ```
 @misc{rahmani2025judgingjudgescollectionllmgenerated,
@@ -26,6 +27,3 @@ If you find LLMJudge-benchmark useful for your work please cite:
         url={https://arxiv.org/abs/2502.13908}, 
   }
 ```
-
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
