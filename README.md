@@ -1,5 +1,12 @@
 # LLMJudge-Benchmark
 
+<div align="center">
+
+  [![arxiv-link](https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red)](https://arxiv.org/abs/2502.13908)
+  [![made-with-pytorch](https://img.shields.io/badge/Made%20with-PyTorch-brightgreen)](https://pytorch.org/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+</div>
+
 This is the repository that contains source code for the [LLMJudge-Benchmark](#). This website is based on [Nerfies website](https://github.com/nerfies/nerfies.github.io)
 
 If you find LLMJudge-benchmark useful for your work please cite:
