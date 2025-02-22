@@ -27,3 +27,9 @@ If you find LLMJudge-benchmark useful for your work please cite:
         url={https://arxiv.org/abs/2502.13908}, 
   }
 ```
+## Contact
+If you have any questions, do not hesitate to contact us by `hossein.rahmani.22@ucl.ac.uk`, we will be happy to assist.
+
+## Acknowledgments
+- This research is supported by the Engineering and Physical Sciences Research Council [EP/S021566/1] and the EPSRC Fellowship titled “Task Based Information Retrieval” [EP/P024289/1].
+- <a href="https://microsoft.github.io/msmarco/TREC-Deep-Learning.html" target="_blank">TREC 2023 Deep Learning Track Guidelines</a>
